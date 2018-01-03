@@ -1,0 +1,14 @@
+{
+    "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsDashboard": "",
+    "AzureWebJobsStorage": "<Please enter Blob storage connection string and add the same in the azure function app App settings connction string>",
+    "AzureServiceBusConnection": "<Please enter service bus connection and add the same in the azure function app App settings connction string>"
+  },
+
+    "ConnectionStrings": 
+    {
+      "sqlazure_connection": "<Please enter sql connection and add the same in the azure function app App settings connction string>"
+    }
+}
+
