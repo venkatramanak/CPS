@@ -1,0 +1,11 @@
+﻿<root>
+  <data name="FunctionAppURL">
+    <value>https://functionappname.azurewebsites.net/api/ValidateLicense?</value>
+  </data>
+  <data name="TriggerAlert">
+    <value>3</value>
+  </data>
+  <data name="LicenseEntity">
+    <value>cxp_licenseapplication</value>
+  </data>
+</root>

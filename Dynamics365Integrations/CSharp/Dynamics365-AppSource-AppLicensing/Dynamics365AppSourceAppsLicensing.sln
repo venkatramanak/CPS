@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2006
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dynamics365", "Dynamics365", "{53ADF6F2-0CC3-44B8-BE23-1CACBFFA1A19}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Azure", "Azure", "{EE4F9427-B2A5-4DBD-A2A9-3BDF5DC98C8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkflowActivityLicenseValidator", "Dynamics365\Dynamics365CustomWorkflowActivity\WorkflowActivityLicenseValidator.csproj", "{245D76CA-2501-48CE-B846-8FDA10116AC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlugInLicenseExpiryValidator", "Dynamics365\PlugInLicenseExpiryValidator\PlugInLicenseExpiryValidator.csproj", "{2FD010EB-A983-43F4-8E8B-29D7388A8052}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunctionAppLicenseValidator", "Azure\FunctionAppLicenseValidator\FunctionAppLicenseValidator.csproj", "{1C535E23-83C1-4D7E-BE6F-75877E9D4466}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebResources", "WebResources", "{F4BBA863-9873-4A42-851D-92EAC6A3B0ED}"
+	ProjectSection(SolutionItems) = preProject
+		Dynamics365\WebResources\ShowNotification.js = Dynamics365\WebResources\ShowNotification.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{51B31014-317E-48B1-AAA8-D2278CB47866}"
+	ProjectSection(SolutionItems) = preProject
+		Data\SampleSingedLicense.xml = Data\SampleSingedLicense.xml
+		Data\Settings.xml = Data\Settings.xml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{245D76CA-2501-48CE-B846-8FDA10116AC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{245D76CA-2501-48CE-B846-8FDA10116AC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{245D76CA-2501-48CE-B846-8FDA10116AC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{245D76CA-2501-48CE-B846-8FDA10116AC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FD010EB-A983-43F4-8E8B-29D7388A8052}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FD010EB-A983-43F4-8E8B-29D7388A8052}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FD010EB-A983-43F4-8E8B-29D7388A8052}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FD010EB-A983-43F4-8E8B-29D7388A8052}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C535E23-83C1-4D7E-BE6F-75877E9D4466}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C535E23-83C1-4D7E-BE6F-75877E9D4466}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C535E23-83C1-4D7E-BE6F-75877E9D4466}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C535E23-83C1-4D7E-BE6F-75877E9D4466}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{245D76CA-2501-48CE-B846-8FDA10116AC9} = {53ADF6F2-0CC3-44B8-BE23-1CACBFFA1A19}
+		{2FD010EB-A983-43F4-8E8B-29D7388A8052} = {53ADF6F2-0CC3-44B8-BE23-1CACBFFA1A19}
+		{1C535E23-83C1-4D7E-BE6F-75877E9D4466} = {EE4F9427-B2A5-4DBD-A2A9-3BDF5DC98C8C}
+		{F4BBA863-9873-4A42-851D-92EAC6A3B0ED} = {53ADF6F2-0CC3-44B8-BE23-1CACBFFA1A19}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D5E25BA6-26A8-4C4A-96C7-CAB3A2E087ED}
+	EndGlobalSection
+EndGlobal
