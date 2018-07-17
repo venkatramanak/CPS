@@ -2,7 +2,7 @@
 
 ### Technology Stack Used
 
-	** Azure Services
+	* <b>Azure Services _**[Function App and KeyVault]**_</b>
 
 		* Azure Function :  Azure function should be hosted in Partner instance to validate the customer license. Learn more about Azure Function https://docs.microsoft.com/en-us/azure/azure-functions/functions-overview
 		
@@ -10,7 +10,7 @@
 		Learn more about Key Vault https://docs.microsoft.com/en-us/azure/key-vault/key-vault-whatis
 
 	
-	** Dynamics 365 Services
+	** <b>Dynamics 365 Services _**[Plug-In, Workflow , WebResources and Customization]**_</b>
 	
 		* Custom Workflow Activity : To call Azure function and validate the customer license, we are using Custom Workflow Activity. We have made Workflow Activity to just simply call the Azure Function and validate and raise notification if the License is not valid. 
 		
@@ -19,10 +19,6 @@
 		* WebResource : To show client side License Notification, In this example we have used Webresource and used the OOB notification.
 		
 		* Customization : There is an entity (License Details : You can have your own entity) created to store the license XML information (After XML is signed).
-			 Download and modify the solution accordingly.	
+			 Download and modify the solution accordingly.				 
 
-
-![](https://github.com/Azure/AzureTestDrive/blob/master/AzureTestDriveImages/HowDoesItWork5.5.png)
-
-
-*	<b>Approval Email _**[Deprecated]**_</b> – The email address(es) that approval requests will be sent to – for customers who have exceeded the test drive launch limit.
+		![](https://github.com/venkatramanak/CPS/blob/master/License/Dynamics365Integrations/CSharp/Dynamics365-AppSource-AppLicensing/Images/Project%20Structure%20Defintion.PNG)
