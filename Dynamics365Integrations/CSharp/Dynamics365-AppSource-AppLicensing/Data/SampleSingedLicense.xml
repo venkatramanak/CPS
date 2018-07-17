@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<License for="Dynamics365 ISV Application License Details" version="1.0" id="Organization">
+  <feature>CreateAccount</feature>
+  <company>Contoso Inc.</company>
+  <purchased>2013-03-18T00:00:00Z</purchased>
+  <effective>2013-03-18T00:00:00Z</effective>
+  <expiry>2013-03-19T00:00:00Z</expiry>
+  <details>Dynamics365 ISV Application License details</details>
+  <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+    <SignedInfo>
+      <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+      <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+      <Reference URI="">
+        <Transforms>
+          <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+        </Transforms>
+        <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <DigestValue>rXmCt4P2yJom0KKg8OxJdv7+qWI=</DigestValue>
+      </Reference>
+    </SignedInfo>
+    <SignatureValue>m46GHy+xNT+DL79/k1K5Bxyh4ohzw+jrFKV0oXZDj1NOq4drmrtNt97S/4K87Fbcd6QR4iBeNo/AH8cRkh06+uPLs1KcqkiSTfmF5Vl0aXnTZycHdWP73udxqLd1dznKfvykSIT7mlIIKQDreuAxp+LlLKRzRL03cHkT2FxW3os=</SignatureValue>
+  </Signature>
+</License>
