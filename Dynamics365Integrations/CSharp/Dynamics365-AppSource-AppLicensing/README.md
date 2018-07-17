@@ -1,3 +1,5 @@
+# Implementing ISV licensing for Dynamics365
+
 This article covers the details about how ISV's can build their Apps in App Source with Licensing Feature enabled so that they would be able to help their customers to renew their App license and resume the app functioning without any issues.
 
 Consider a scenario where ISV's building a Dynamics365 Apps and decided to give it for Trial Version for a certain period time and later convert that into paid app in a quick way.
@@ -5,14 +7,12 @@ A potential customer discovers your application in AppSource, signs in and agree
 
 ### How does it work? 
 
-
-
 ***
 
 Simple way to modify and deploy the code :
 
-* [How does it work?](https://github.com/Microsoft/AppSource/blob/master/How-does-it-work.md)
-* [How do I get started?](https://github.com/Microsoft/AppSource/blob/master/GettingStarted.md)
+* [How does it work?](https://github.com/venkatramanak/CPS/blob/users/kvramana/License/Dynamics365Integrations/CSharp/Dynamics365-AppSource-AppLicensing/Documents/How-does-it-work.md)
+* [How do I get started?](https://github.com/venkatramanak/CPS/blob/users/kvramana/License/Dynamics365Integrations/CSharp/Dynamics365-AppSource-AppLicensing/Documents/GettingStarted.md)
 
 # Contributing
 

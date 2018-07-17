@@ -1,10 +1,10 @@
 # How does it work ?
 
-## Technology Stack Used
-
 ![](https://github.com/venkatramanak/CPS/blob/users/kvramana/License/Dynamics365Integrations/CSharp/Dynamics365-AppSource-AppLicensing/Images/HighLevelDesignArchitecture.PNG)
 
 ***
+
+## Technology Stack Used
 
 ### Azure Services [Function App and KeyVault]
 
@@ -22,5 +22,4 @@
 * WebResource : To show client side License Notification, In this example we have used Webresource and used the OOB notification.
 		
 * Customization : There is an entity (License Details : You can have your own entity) created to store the license XML information (After XML is signed).
-			 Download and modify the solution accordingly.			 
-
+			 Download and modify the solution accordingly.
