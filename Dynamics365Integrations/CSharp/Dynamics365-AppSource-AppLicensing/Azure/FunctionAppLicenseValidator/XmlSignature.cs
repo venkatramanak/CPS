@@ -18,7 +18,7 @@ namespace Microsoft.Dynamics365.AppSource
         {
             RSACryptoServiceProvider Key = new RSACryptoServiceProvider();
             //Sample Key
-            string PublicKeyXmlString = "<RSAKeyValue><Modulus>xlvui12R9N8MvJI7rA19LcUqiWeNAy2uBEYXG2QI0oruAbhUUCJ4JTL0/8syb/jgdNRkoXjEzgOgUmELfa/zftdE6MqcO/SJt4fC6E6RRx70RXizSjOy2ZxGcINP+MbkpfP/6XqKw/ciRNNTL6CxK2rwtcUZ0pB6zrKpZemFb7U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue>";            
+            string PublicKeyXmlString = "<RSAKeyValue><Modulus>xlvui12R9N8MvJI7rA19LcUqiWeNAy2uBEYXG2QI0oruAbhUUCJ4JTL0/8syb/jgdNRkoXjEzgOgUmELfa/zftdE6MqcO/SJt4fC6E6RRx70RXizSjOy2ZxGcINP+MbkpfP/6XqKw/ciRNNTL6CxK2rwtcUZ0pB6zrKpZemFb7U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue>";
             Key.FromXmlString(PublicKeyXmlString);
             return Key;
         }

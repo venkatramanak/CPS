@@ -1,4 +1,5 @@
-# How do I get started? #
+How do I get started?
+===
 
 ### Technology Stack Used
 
