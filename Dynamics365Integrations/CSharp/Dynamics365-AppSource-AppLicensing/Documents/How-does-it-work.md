@@ -1,7 +1,10 @@
-# How do I get started?
-
+# How does it work ?
 
 ## Technology Stack Used
+
+![](https://github.com/venkatramanak/CPS/blob/users/kvramana/License/Dynamics365Integrations/CSharp/Dynamics365-AppSource-AppLicensing/Images/HighLevelDesignArchitecture.PNG)
+
+***
 
 ### Azure Services [Function App and KeyVault]
 
@@ -21,4 +24,3 @@
 * Customization : There is an entity (License Details : You can have your own entity) created to store the license XML information (After XML is signed).
 			 Download and modify the solution accordingly.			 
 
-![](https://github.com/venkatramanak/CPS/blob/users/kvramana/License/Dynamics365Integrations/CSharp/Dynamics365-AppSource-AppLicensing/Images/HighLevelDesignArchitecture.PNG)
