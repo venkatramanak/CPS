@@ -1,6 +1,6 @@
-This article covers the details about how ISV's can build their Apps in App Source with Licensing Feature enabled so that they would be able to help their customers to renew their App license and resume the app function without any issues.
+This article covers the details about how ISV's can build their Apps in App Source with Licensing Feature enabled so that they would be able to help their customers to renew their App license and resume the app functioning without any issues.
 
-Consider a scenario where ISV's building a Dynamics365 Apps and decided to give a Trial Version for certain period and later convert that into paid app in a quick way.
+Consider a scenario where ISV's building a Dynamics365 Apps and decided to give it Trial Version for certain period and later convert that into paid app in a quick way.
 when customer download a particular Trial version app and install through app source, App should  let customer know that licensing period of that and notify them so that customers would be able to renew the app license before the app getting expired or getting into unusable mode.
 
 ### How does it work? 
