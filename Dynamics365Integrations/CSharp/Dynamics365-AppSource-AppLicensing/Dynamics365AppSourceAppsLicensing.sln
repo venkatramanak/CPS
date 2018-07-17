@@ -24,6 +24,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{51B31014-3
 		Data\Settings.xml = Data\Settings.xml
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{3CFD0508-3175-4B9C-BD25-12CD4FABCEAD}"
+	ProjectSection(SolutionItems) = preProject
+		Documents\GettingStarted.md = Documents\GettingStarted.md
+		Documents\How-does-it-work.md = Documents\How-does-it-work.md
+		Documents\LICENSE = Documents\LICENSE
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{893732ED-C5F5-4E4D-8906-3945D05115C0}"
+	ProjectSection(SolutionItems) = preProject
+		Images\HighLevelDesignArchitecture.PNG = Images\HighLevelDesignArchitecture.PNG
+		Images\ProjectStructureDefintion.PNG = Images\ProjectStructureDefintion.PNG
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
